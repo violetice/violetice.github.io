@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OBS时间插件</title>
+    <script src="https://lib.baomitu.com/dayjs/1.11.18/dayjs.min.js"></script>
+    <style>
+        @font-face {
+            font-family: '得意黑';
+            src: url("https://cdn.vlice.cn/font/SmileySans-Oblique.otf") format("opentype"),
+            url("https://cdn.vlice.cn/font/SmileySans-Oblique.ttf") format('truetype');
+        }
+
+        .timer-box {
+            width: 350px;
+            height: 160px;
+            margin-left: 5px;
+            margin-top: 5px;
+
+            box-shadow: #b3b3b3 0 0 5px 5px;
+            border-radius: 10px;
+            background: rgba(179, 179, 179, 0.2);
+        }
+
+        .timer-time, .timer-date {
+            text-align: center;
+            height: 65px;
+            line-height: 65px;
+            font-family: '得意黑',serif;
+            font-size: 2.6rem;
+            font-weight: bold;
+            color: #fff;
+            -webkit-text-stroke: 0.2px #808080;
+        }
+
+        .timer-time {
+            padding-top: 15px;
+        }
+
+        .timer-date {
+            padding-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+<div class="timer-box">
+    <div class="timer-time"></div>
+    <div class="timer-date"></div>
+</div>
+</body>
+<script>
+    let T = dayjs()
+
+    function resetTimer(time) {
+        document.querySelector('.timer-time').innerText = time.format('HH : mm : ss')
+        if (time.isAfter(T, 'day')) {
+            setDay(time)
+        }
+        T = time
+    }
+
+    function setDay(time) {
+        document.querySelector('.timer-date').innerText = time.format('YYYY 年 MM 月 DD 日')
+    }
+
+    resetTimer(T)
+    setDay(T)
+
+    setInterval(() => {
+        resetTimer(dayjs())
+    }, 1000)
+</script>
+</html>
