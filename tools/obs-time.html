@@ -17,9 +17,9 @@
             margin-left: 5px;
             margin-top: 5px;
 
-            box-shadow: #b3b3b3 0 0 5px 5px;
+            box-shadow: #b3b3b3 0 0 3px 3px;
             border-radius: 10px;
-            background: rgba(179, 179, 179, 0.2);
+            background: rgba(179, 179, 179, 0.3);
         }
 
         .timer-time, .timer-date {
@@ -27,10 +27,10 @@
             height: 65px;
             line-height: 65px;
             font-family: '得意黑',serif;
-            font-size: 2.6rem;
+            font-size: 3.4rem;
             font-weight: bold;
             color: #fff;
-            -webkit-text-stroke: 0.2px #808080;
+            /*-webkit-text-stroke: 0.2px #808080;*/
         }
 
         .timer-time {
@@ -60,7 +60,7 @@
     }
 
     function setDay(time) {
-        document.querySelector('.timer-date').innerText = time.format('YYYY 年 MM 月 DD 日')
+        document.querySelector('.timer-date').innerText = time.format('YYYY年MM月DD日')
     }
 
     resetTimer(T)
