@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.vlice.cn/po/c96edc391a57/</loc>
+    
+    <lastmod>2026-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.vlice.cn/po/e60beda8c24d/</loc>
     
     <lastmod>2026-11-07</lastmod>
@@ -404,6 +413,34 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://www.vlice.cn/tags/%E8%87%AA%E9%A9%BE/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.vlice.cn/tags/%E8%9C%9C%E6%9C%88/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.vlice.cn/tags/%E8%B7%AF%E4%B9%A6/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.vlice.cn/tags/%E8%A1%8C%E7%A8%8B%E8%A7%84%E5%88%92/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -471,6 +508,13 @@
   
   <url>
     <loc>https://www.vlice.cn/categories/%E6%9E%81%E5%AE%A2%E5%B7%A5%E7%A8%8B/%E7%A1%AC%E4%BB%B6/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.vlice.cn/categories/%E6%97%85%E8%A1%8C%E6%B8%B8%E8%AE%B0/</loc>
     <lastmod>2026-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
